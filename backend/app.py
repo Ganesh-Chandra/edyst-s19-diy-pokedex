@@ -12,7 +12,7 @@ def fun(id):
     data=f.read()
     data=ast.literal_eval(data)
     data=data[id]
-    data={'id':data[0],'name':data[1],'sprites':data[2]}
+    data={'id':data[0],'name':data[1],'sprite':data[2]}
     res=jsonify(pokemon=data)
     return res
 if __name__ == "__main__":

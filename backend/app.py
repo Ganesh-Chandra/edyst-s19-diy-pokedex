@@ -8,7 +8,7 @@ def errfun(e):
 def fun(id):
     if(id<1 or id>151):
         return render_template("404.html"),404
-    f=open("backend/data.txt",'r')
+    f=open("data.txt",'r')
     data=f.read()
     data=ast.literal_eval(data)
     data=data[id]

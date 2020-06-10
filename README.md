@@ -1,6 +1,6 @@
 This project illustrates the working of a HTTP Request with a parameter.
 It has an API that returns the details of pokémons based on their ID.
-
+This also includes a scrapper file that scrapes the data from a pokemon website.That was that data which will be queried.
 ## How to run the project
 
 1.Clone the repository into your system.
